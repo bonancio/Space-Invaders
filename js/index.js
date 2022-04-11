@@ -144,6 +144,9 @@ window.addEventListener("keydown", function (e) {
         case "KeyX":
             naveAtirar()
             break
+        case "KeyA":
+            SomFundo.play()
+            break 
     }
 })
 
